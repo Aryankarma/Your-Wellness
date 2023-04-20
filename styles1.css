@@ -1,0 +1,213 @@
+body{
+    /* background-color: rgba(38, 126, 46, 0.877);
+    margin: 0; */
+    position: relative;
+}
+.sidepannel{
+    float: left;
+    position: absolute;
+    background-color: rgb(225,225,225);
+    height: 88vh;
+    top: 12vh;
+    padding: .3rem;
+    z-index: 1;
+    box-shadow: 3px 5px 10px black;
+    border-top-left-radius: .8rem;
+}
+
+.hamlogo{
+    border: transparent solid 4px;
+    border-radius: 50px;
+    padding: .5rem 0.7rem;
+    margin-top: 0.5rem;
+    /* margin-bottom: 1.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.box{
+    width: 100%;
+    height: 6.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1.8rem; */
+    margin-bottom: 4.5vh;
+}
+.circle{
+    /* background-color: rgba(51, 51, 51, 0.781); */
+    border: #333 solid 4px;
+    border-radius: 5rem;
+    padding: .55rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle:hover{
+    background-color: rgba(51, 51, 51, 0.212);
+}
+.icon{
+    color: #333;
+    font-size: 1rem;
+    margin: 0 !important;
+}
+.sidepanelextended{
+    position: absolute;
+    background-color: rgb(225,225,225);
+    border-radius: 1.7rem;
+    width: 18vw;
+    height: 88vh;
+    top: 12vh;
+    padding: 0.3rem 1rem 0.3rem 1.2rem; 
+    z-index: 0;
+    transition: 600ms ease-in-out;
+}
+.hmb{
+    opacity: 0.3;
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hamlogo1{
+    float: right;
+    border: transparent solid 4px;
+    border-radius: 50px;
+    padding: .5rem 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidepannel1{
+    position: absolute;
+    background-color: rgb(225,225,225);
+    height: 88vh;
+    top: 12vh;
+    display: none;
+}
+.sidepannel2{
+    /* background-color: rgb(214, 83, 83); */
+    height: 80%;
+    width: 70%;
+    float: right;
+    /* position: absolute; */
+    margin-top: 5rem;
+    top: 12vh;
+    right: 1.3rem;
+}
+.box1{
+    width: 100%;
+    height: 6.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1.8rem; */
+    margin-bottom: 4.5vh;
+}
+.circle1{
+    /* background-color: rgba(51, 51, 51, 0.781); */
+    border: #333 solid 4px;
+    border-radius: 5rem;
+    padding: .40rem;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1:hover{
+  background-color: rgba(51, 51, 51, 0.212);
+}
+.circle1 h3{
+    font-size: 1rem;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+
+
+/* 
+#menuToggle{
+  display: block;
+  position: relative;
+  top: 20vh;
+  left: 25px;
+}
+
+#menuToggle input{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; hide this
+z-index: 2; and place it over the hamburger
+  -webkit-touch-callout: none;
+}
+#menuToggle span{
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+ #menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+#menu{
+  position: absolute;
+  width: 20vw;
+  margin: -42px 0 0 -50px;
+  padding: 50px;
+  padding-top: 85px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+} */

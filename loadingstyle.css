@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    display: relative;
+}
+.maindiv{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.heart{
+    top: 50%;
+    margin: 0;
+    right: 50%;
+    padding: 0;
+    color: red;
+    font-size: 4vw;
+    position: absolute;
+    transform: translate(50%,-40%);
+}
+p{
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 2vw;
+    font-weight: 200;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+}
+.infiniteLoad{    
+    margin: auto;
+    vertical-align: center;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    border: 1vw solid #333;
+    border-top: 1vw solid red;
+    animation: spinner 1s linear infinite;
+    -o-animation: spinner 1s linear infinite;
+    -ms-animation: spinner 1s linear infinite;
+    -moz-animation: spinner 1s linear infinite;
+    -webkit-animation: spinner 1s linear infinite;
+}
+@keyframes spinner{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+}
+@-moz-keyframes spinner{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+}
+@-webkit-keyframes spinner{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+}
+@-ms-keyframes spinner{
+    from{
+        transform: rotate(180deg);
+        transition: 1s;
+    }
+    to{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+}
+@-o-keyframes spinner{
+    from{
+        transform: rotate(180deg);
+        transition: 1s;
+    }
+    to{
+        transform: rotate(360deg);
+        transition: 1s;
+    }
+}
+
+
+
+/* style number 2 */
+
+
+/* body{
+    margin: 0;
+    display: relative;
+    overflow: hidden;
+}
+.maindiv{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.heart{
+    margin: 0;
+    padding: 0;
+    color: #045256;
+    font-size: 7vw;
+    position: absolute;
+    transition: 1000ms;
+    animation: beat 1s infinite alternate;
+}
+.heart:hover{
+    transition: 2000ms;
+    color: red;
+    padding: 0;
+}
+p{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 2vw;
+    font-weight: 200;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+}
+.infiniteLoadContainer{
+    height: 1vh;
+    width: 100%;
+    top: 0;
+}
+.infiniteLoad{    
+    height: 1vh;
+    width: 100%;
+    background-color: red;
+    top: 0;
+    position: absolute;
+    animation: gradient 1s linear infinite;
+    -o-animation: gradient 1s linear infinite;
+    -ms-animation: gradient 1s linear infinite;
+    -moz-animation: gradient 1s linear infinite;
+    -webkit-animation: gradient 1s linear infinite;
+}
+@keyframes gradient{
+    0%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(-100%);
+    }
+    50%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(50%);
+    }
+    100%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(100%);
+    }
+}
+@-moz-keyframes gradient{
+    0%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(-100%);
+    }
+    50%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(50%);
+    }
+    100%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(100%);
+    }
+}
+@-webkit-keyframes gradient{
+    0%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(-100%);
+    }
+    50%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(50%);
+    }
+    100%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(100%);
+    }
+}
+@-ms-keyframes gradient{
+    0%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(-100%);
+    }
+    50%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(50%);
+    }
+    100%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(100%);
+    }
+}
+@-o-keyframes gradient{
+    0%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(-100%);
+    }
+    50%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(50%);
+    }
+    100%{
+        background:linear-gradient(45deg, #c4ebc2 0%, #aecfa4 30%, #6bbd99 60%, #3b887e 100%);
+        transform: translateX(100%);
+    }
+} */
+
+/* animation for heartbeat */
+
+/* @keyframes beat{
+    from {
+        transform: scale(1);
+        transition: 1s;
+}
+    to {
+            transform: scale(1.2);
+            transition: 1s;
+    }
+}
+
+@-o-keyframes beat{
+    from {
+        transform: scale(1);
+        transition: 1s;
+}
+    to {
+            transform: scale(1.2);
+            transition: 1s;
+    }
+}
+@-moz-keyframes beat{
+    from {
+        transform: scale(1);
+        transition: 1s;
+}
+    to {
+            transform: scale(1.2);
+            transition: 1s;
+    }
+}
+
+@-ms-keyframes beat{
+    from {
+        transform: scale(1);
+        transition: 1s;
+}
+    to {
+            transform: scale(1.2);
+            transition: 1s;
+    }
+}
+@-webkit-keyframes beat{
+    from {
+        transform: scale(1);
+        transition: 1s;
+}
+    to {
+            transform: scale(1.2);
+            transition: 1s;
+    }
+} */

@@ -1,0 +1,185 @@
+body{  
+    /* background: -webkit-linear-gradient(to right, #f05053, #e1eec3);
+    background: linear-gradient(to right, rgba(60,206,254,1), rgba(0,147,147,1)); */
+     
+    /* background: #d9a7c7;
+    background: -webkit-linear-gradient(to left, #fffcdc, #d9a7c7);
+    background: linear-gradient(to left, #fffcdc, #d9a7c7);  */
+
+    /* background: #06dd59;
+    background: -webkit-linear-gradient(to left, #83f338d5, #06beb6);
+    background: linear-gradient(to left, #48bf4e, #06beb6); */
+
+    /* background: #67B26F;
+    background: -webkit-linear-gradient(to bottom, #4ca2cd, #67B26F);
+    background: linear-gradient(to bottom, #4ca2cd, #67B26F); */
+
+    /* background: rgb(1,97,112);
+    background: radial-gradient(circle, rgb(20, 196, 223) 0%, rgb(18, 209, 209) 33%, rgb(48, 219, 194) 66%, rgba(255,255,255,1) 100%); */
+    
+    /* background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 20%, rgba(0,224,192,1) 33%, rgba(0,147,147,1) 66%, rgba(1,97,112,1) 100%); */
+
+    /* background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,224,192,1) 40%, rgba(0,147,147,1) 80%, rgba(1,97,112,1) 90%); */
+
+    /* background: rgb(218,215,205);
+    background: linear-gradient(45deg, rgba(218,215,205,1) 0%, rgba(163,177,138,1) 25%, rgba(88,129,87,1) 50%, rgba(58,90,64,1) 75%, rgba(52,78,65,1) 100%); */
+
+
+ 
+ /* background: radial-gradient(circle, #fffb2ae1 0%,#34fa8d9c 50%, #ffffffb9 100%);  */
+
+
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /* FINAL GRADIENT */
+
+    background: rgba(0,224,192,1);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(0,224,192,1) 33%, rgba(0,147,147,1) 66%, rgba(1,97,112,1) 95%);
+    height: 100vh;
+}
+.parentMainpage{
+    height: 95vh;
+    width: 80vw;
+    /* background-color: rgba(0, 0, 0, 0.40); */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mainpage{
+    height: 85vh;
+    width: 70vw;
+    position: absolute;
+    background-color: rgba(240, 240, 240, 1);
+    bottom: 0;
+    border-top-right-radius: 2em;
+    background-image: url(material/images/img3.jpg);
+    filter: brightness(95%);
+}
+/* .mainpagebg{
+    height: 85vh;
+    width: 70vw;
+    background-image: url(material/images/img3.jpg);
+    filter: brightness(95%);
+    bottom: 0;
+    border-top-right-radius: 2em;
+} */
+
+
+.leftmainpage{
+    height: 60%;
+    width: 43%;
+    float: left;
+}
+.rightmainpage{
+    height: 60%;
+    width: 57%;
+    position: relative;
+    float: right;
+}
+.logo{
+    background-color: black;
+    height: 8em;
+    z-index: 1;
+    width: 8em;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Mainpage img{
+    float: left;
+    transform: translate(0%,20%);
+    height: 40vh;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-left: 2rem;
+}
+.rightmainpage h1{
+    width: 90%;
+    font-size: 3.2rem;
+    color: rgba(0,147,147,1) ;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-weight: 700;
+    margin-top: 6rem;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+.rightmainpage h6{
+    width: 85%;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+.mainlogin{
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: 1px solid rgba(0,147,147,1);
+    padding: 0.2rem 1.2rem;
+    color: rgba(0,147,147,1);
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    right: 10rem;
+}
+.mainlogin:hover{
+    opacity: 60%;
+    transition: 250ms;
+}
+.mainsignup{
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background-color: rgba(0,147,147,1);
+    color: white;
+    border: 1px solid rgba(0,147,147,1);
+    padding: 0.2rem 1.2rem;
+    position: absolute;
+    right: 2rem;
+}
+.mainsignup:hover{
+    opacity: 60%;
+    transition: 250ms;
+}
+/* hr{
+    position: absolute;
+    top: 55%;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    width: 100%;
+} */
+
+hr{
+    border-top: 1px solid black;
+    width: 100%;
+    overflow: auto !important;
+    margin: 0 !important;
+}
+.bottommainpage{
+    width: 100%;
+    height: 40%;
+    display: flex;
+
+}
+
+.Mainpage p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 1.5rem;
+    text-align: justify;
+    margin: 1.5rem 1.2rem;
+}

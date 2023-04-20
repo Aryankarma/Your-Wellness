@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Create File Popup</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #333;
+		}
+		
+		button {
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 3px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		
+		.popup {
+			display: none;
+			position: fixed;
+			z-index: 1;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+            /* border: 5px solid white; */
+			overflow: auto;
+			background-color: rgba(0,0,0,0.4);
+		}
+		
+		.popup-content {
+			background-color: white;
+			margin: 15% auto;
+			padding: 20px;
+			border-radius: 5px;
+			max-width: 500px;
+		}
+		
+		.close {
+			color: #aaa;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+		
+		.close:hover,
+		.close:focus {
+			color: black;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		
+		input[type=text], select {
+			display: block;
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+		}
+		
+		input[type=file] {
+			display: block;
+			margin-top: 8px;
+		}
+		
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+
+	<button id="myBtn">Create File</button>
+
+	<div id="myModal" class="popup">
+		<div class="popup-content">
+			<span class="close">&times;</span>
+			<h2>Create New File</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter file name">
+				<label for="description">Description:</label>
+				<input type="text" id="description" name="description" placeholder="Enter file description">
+				<label for="file">Choose a file:</label>
+				<input type="file" id="file" name="file">
+				<input type="submit" value="Create">
+			</form>
+		</div>
+	</div>																	
+
+	<script>
+		// Get the popup window
+		var popup = document.getElementById("myModal");
+
+		// Get the button that opens the popup
+		var btn = document.getElementById("myBtn");
+
+		// Get the close button
+		var close = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the popup
+        btn.onclick = function() {
+			popup.style.display = "flex";
+		}
+
+		// When the user clicks on the close button, close the popup
+		close.onclick = function() {
+			popup.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the popup, close it
+		window.onclick = function(event) {
+			if (event.target == popup) {
+				popup.style.display = "none";
+			}
+		}
+	</script>
+
+</body>
+</html>
