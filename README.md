@@ -1,2 +1,1 @@
-# Your-wellness
-Self project
+Live link - https://aryankarma.github.io/Your-wellness/
