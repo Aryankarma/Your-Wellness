@@ -519,6 +519,7 @@ button {
   position: relative;  
   margin-bottom: 5rem;
   transition: 300ms ease-in-out;
+  background-color: #f2f2f2;
 }
 .boxmain3:hover{
   /* box-shadow: 0 5px 20px rgba(0,0,0,.2),0 4px 4px -2px rgba(0,0,0,.2); */
@@ -571,6 +572,7 @@ button {
   position: relative;
   margin-bottom: 5rem;
   transition: 300ms ease-in-out;
+  background-color: #f2f2f2;
 }
 .boxmain4:hover{
   /* box-shadow: 0 5px 20px rgba(0,0,0,.2),0 4px 4px -2px rgba(0,0,0,.2); */
