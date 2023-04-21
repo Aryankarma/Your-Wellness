@@ -212,6 +212,7 @@ button {
     float: left;
     position: absolute;
     background-color: rgb(235, 235, 235);
+    background-color:#444444;
     height: 100%;
     top: 0;
     left: 0;
