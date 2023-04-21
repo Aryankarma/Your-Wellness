@@ -243,7 +243,7 @@ button {
   position: absolute;
   /* background-color: rgb(235, 235, 235); */
 
-  background-color: #444444;
+  background-color: #333;
   /* try this */
   /* background: linear-gradient(180deg, #aecfa4 0%, #6bbd99 30%, #3b887e 70%, #004d49 100%); */
 
@@ -258,7 +258,7 @@ button {
 .sidepanelextended{
   position: absolute;
   background-color: rgb(235, 235, 235);
-  background-color: #333;
+  background-color: #444;
   border-radius: 1.7rem;
   width: 20vw;
   height: 100vh;

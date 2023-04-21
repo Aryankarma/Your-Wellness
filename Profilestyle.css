@@ -177,7 +177,7 @@ button {
 
 .circle {
     /* background-color: rgba(51, 51, 51, 0.781); */
-    border: #333 solid 4px;
+    border: #f2f2f2 solid 4px;
     border-radius: 5rem;
     padding: .55rem;
     width: 30%;
@@ -195,7 +195,7 @@ button {
 }
 
 .icon {
-    color: #333;
+    color: #f2f2f2;
     font-size: 1rem;
     margin: 0 !important;
 }
@@ -212,7 +212,7 @@ button {
     float: left;
     position: absolute;
     background-color: rgb(235, 235, 235);
-    background-color:#444444;
+    background-color:#333;
     height: 100%;
     top: 0;
     left: 0;
@@ -224,7 +224,7 @@ button {
 
 .sidepanelextended {
     position: absolute;
-    background-color: rgb(235, 235, 235);
+    background-color:#444;
     border-radius: 1.7rem;
     width: 20vw;
     height: 100vh;
@@ -286,7 +286,7 @@ button {
 
 .circle1 {
     /* background-color: rgba(51, 51, 51, 0.781); */
-    border: #333 solid 4px;
+    border: #f2f2f2 solid 4px;
     border-radius: 5rem;
     padding: .40rem;
     width: 80%;
@@ -304,7 +304,7 @@ button {
 
 .circle1 a {
     text-decoration: none;
-    color: black;
+    color: #f2f2f2;
 }
 
 .circle1:hover {
