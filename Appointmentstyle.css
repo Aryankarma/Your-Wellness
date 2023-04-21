@@ -83,6 +83,18 @@ button {
     letter-spacing: 4px;
     margin-left: 1.5rem;
 }
+.content{
+    background-color: #04525628;
+    margin-top: 3rem;
+    position: relative;
+    z-index: -3;
+    border-radius: 1.5rem;
+    border: 3px solid transparent;
+    box-shadow: 5px 5px 25px #04525693, -5px 0px 25px #04525693;
+    padding-bottom: 6rem;
+    margin: 3rem;
+    margin-bottom: 0;
+ }
 
 /* .sidepannel{
       float: left;
@@ -99,21 +111,6 @@ button {
     padding: 10vw 10vw 5vw 15vw;
     z-index: -1;
 }
-
-.content{
-   background-color: #04525628;
-   margin-top: 3rem;
-   position: relative;
-   z-index: -3;
-   border-radius: 1.5rem;
-   border: 3px solid transparent;
-   box-shadow: 5px 5px 25px #04525693, -5px 0px 25px #04525693;
-   padding-bottom: 6rem;
-   margin: 3rem;
-   margin-bottom: 0;
-
-}
-
 .blurcontent {
     filter: blur(5px);
     transition: 400ms;
@@ -640,6 +637,7 @@ input[type="checkbox"]:checked:before {
 }
 .popupcont {
     background: linear-gradient(45deg, #c4ebc2 0%, #aecfa4 15%, #6bbd99 40%, #3b887e 90%);
+    /* background-color: #f2f2f2c9; */
     padding: 15px;
     margin: 7% auto;
     width: 60vw;

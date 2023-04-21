@@ -1,3 +1,6 @@
+:root{
+    --primaryCLR : #333;
+}
 body {
     position: relative;
     /* background-color: #0b2424; */
