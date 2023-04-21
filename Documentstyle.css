@@ -216,6 +216,7 @@ button {
   /* outline: 2px solid black; */
   border-top-right-radius: .8rem;
   z-index: 4 !important;
+  background-color:#444444;
 }
 
 .sidepanelextended {
