@@ -526,6 +526,13 @@ button {
   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
   transform: translateY(-8px);
   transition: 300ms;
+  
+  box-shadow: 0px 5px 15px #003d3a;
+  transform: translateY(-8px);
+  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+  transition: 300ms ease-in-out;
+  outline: 0;
+  color: #f2f2f2;
 }
 .boxmain3 h1{
   font-weight: 400;
@@ -572,6 +579,13 @@ button {
   transform: translateY(-8px);
   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
   transition: 300ms;
+  
+   box-shadow: 0px 5px 15px #003d3a;
+  transform: translateY(-8px);
+  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+  transition: 300ms ease-in-out;
+  outline: 0;
+  color: #f2f2f2;
 }
 .boxmain4 h1{
   font-weight: 400;
