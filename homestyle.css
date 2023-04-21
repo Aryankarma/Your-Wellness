@@ -504,7 +504,7 @@ button {
 
   /* try this */
   background-color: #004d49;
-  color: #f2f2f2;
+  color: black;
   /* background: linear-gradient(45deg, #c4ebc2 0%, #004d49 100%); */
   
   /* background-color: #98FB98; */
@@ -561,7 +561,7 @@ button {
   /* background: linear-gradient(45deg, #c4ebc2 0%, #004d49 100%); */
   /* background-color: #98FB98; */
   /* background-color: #1B365D; */
-  /* color: white; */
+  color: black;
 
   /* border: 2px solid black; */
   border-radius: 30px;
