@@ -396,10 +396,11 @@ button {
   /* box-shadow: 0 5px 20px rgba(0,0,0,.2),0 4px 4px -2px rgba(0,0,0,.2); */
   box-shadow: 0px 5px 15px #003d3a;
   transform: translateY(-8px);
-  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+/*   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%); */
   transition: 300ms ease-in-out;
   outline: 0;
   color: #f2f2f2;
+  background-color:#444;
 }
 
 /* .blurbox{
@@ -479,10 +480,11 @@ button {
   /* box-shadow: 0 5px 20px rgba(0,0,0,.2),0 4px 4px -2px rgba(0,0,0,.2); */
   box-shadow: 0px 5px 10px #333;
   transform: translateY(-8px);
-  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+/*   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%); */
   transition: 300ms;
   color: #f2f2f2;
   outline: 0;
+  background-color:#444;
 }
 .boxmain2 h1{
   font-weight: 400;
@@ -524,16 +526,17 @@ button {
 .boxmain3:hover{
   /* box-shadow: 0 5px 20px rgba(0,0,0,.2),0 4px 4px -2px rgba(0,0,0,.2); */
   box-shadow: 0px 5px 10px #333;
-  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+/*   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%); */
   transform: translateY(-8px);
   transition: 300ms;
   
   box-shadow: 0px 5px 15px #003d3a;
   transform: translateY(-8px);
-  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+/*   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%); */
   transition: 300ms ease-in-out;
   outline: 0;
   color: #f2f2f2;
+  background-color:#444;
 }
 .boxmain3 h1{
   font-weight: 400;
@@ -579,15 +582,17 @@ button {
   box-shadow: 0px 5px 10px #333;
   /* box-shadow: 0px 5px 10px #98fb987c; */
   transform: translateY(-8px);
-  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+/*   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%); */
   transition: 300ms;
   
    box-shadow: 0px 5px 15px #003d3a;
   transform: translateY(-8px);
-  background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%);
+/*   background: linear-gradient(45deg, #c4ebc2 -10%, #003d3a 95%); */
   transition: 300ms ease-in-out;
   outline: 0;
   color: #f2f2f2;
+  
+  background-color:#444;
 }
 .boxmain4 h1{
   font-weight: 400;
